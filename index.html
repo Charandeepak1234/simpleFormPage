@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="item_in_container">
+            <form id="formId">
+                <div class="marginToItems">
+                    <label for="name">Name:</label>
+                    <input id="name" placeholder="Name"/>
+                    <p id="nameErrorMsg" style="display: none;">required*</p>
+                </div>
+                <div class="marginToItems">
+                    <label for="email">EMail:</label>
+                    <input id="email" placeholder="email"/>
+                    <p id="mailErrorMsg" style="display: none;">required*</p>
+                </div>
+                <div class="marginToItems">
+                    <label for="message">Message:</label>
+                    <input id="message" placeholder="message"/>
+                    <p id="msgErrorMsg" style="display: none;">required*</p>
+                </div>
+                <div class="marginToItems">
+                    <button type="submit">Submit</button>
+                </div>
+                <div>
+                    <p class="succesMsg" id="successMsg" style="display: none;">Thank you for your Message!</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="index.js" ></script>
+</body>
+</html>
